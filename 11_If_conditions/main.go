@@ -14,6 +14,8 @@ func main() {
 
 	if another_number := some_number; another_number > 0 {
 		fmt.Println("Another number is greater than zero")
+	} else if another_number := some_number; another_number = 1 {
+		fmt.Println("Another number is one")
 	}
 
 }
