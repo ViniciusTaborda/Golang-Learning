@@ -2,6 +2,8 @@ package database
 
 import (
 	"database/sql"
+
+	_ "github.com/go-sql-driver/mysql" // Driver de conexão com o MySQL
 )
 
 func Connect() (*sql.DB, error) {
